@@ -1,0 +1,44 @@
+Q1. #include<iostream>
+using namespace std;
+int main(){
+
+cout<<"Physics"<<endl<<"Wallah";
+
+
+
+}
+
+
+Q2.  
+  #include<iostream>
+using namespace std;
+int main(){
+int a=5,b=5;
+cout<<a+b;
+
+
+}
+
+Q3.  int takes 4 bytes
+bool takes 1 byte
+float takes 4 bytes
+
+Q4.  6  4
+
+Q5.   #include<iostream>
+using namespace std;
+int main(){
+int r; 
+cout<<"enter the radius";
+cin>>r;
+
+cout<<2*3.14*r;
+
+}
+
+Q6.  01PwskillsÚ - not variable name
+óFLOATÚ - not variable name
+intÚ - name of variable
+FLOATÚ - variable name
+You will succeed - not variable name
+
