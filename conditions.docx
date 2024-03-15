@@ -1,0 +1,44 @@
+Q1. Output is 0
+
+Q2. 1  1
+
+Q3. -1
+
+Q4. #include <iostream>
+using namespace std;
+int main()
+{
+
+int r,h;
+ cout<<"eneter the cylinder radius and height";
+ cin>>r>>h;
+ 
+ cout<<"volume of the cylinder is : "<<3.14*r*r*h<<endl;
+
+
+}
+
+
+Q5.#include <iostream>
+using namespace std;
+int main()
+{
+
+char a,b;
+
+cout<<"eneter two characters :";
+cin>>a>>b;
+
+int c,d,z;
+c=(int)a;
+d=(int)b;
+
+z=c-d;
+
+if(z<0) cout<< -z;
+else cout<<z;
+
+}
+
+
+Q6. 49
