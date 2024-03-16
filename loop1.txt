@@ -1,0 +1,94 @@
+Q1. printing odd numbers
+#include <iostream>
+using namespace std;
+int main()
+{
+int a;
+for(int i=1;i<=100;i++){
+    if(i%2==0) continue;
+    else cout<<i<<" ";
+}
+
+}
+
+
+Q2. Divisible by 3
+#include <iostream>
+using namespace std;
+int main()
+{
+int a;
+for(int i=1;i<=100;i++){
+    if(i%3==0) cout<<i<<" ";
+    else continue;
+}
+
+}
+
+
+Q3. Table of n
+#include <iostream>
+using namespace std;
+int main()
+{
+int n;
+cout<<"enter n ";
+cin>>n;
+for(int i=1;i<=10;i++){
+    cout<<n*i<<" ";
+}
+
+}
+
+
+Q4.AP printing 
+#include <iostream>
+using namespace std;
+int main()
+{
+int n;
+int a=4;
+cout<<"enter number of terms : ";
+cin>>n;
+for(int i=1;i<=n;i++){
+
+    cout<<a<<" ";
+    a+=3;
+}
+
+}
+
+
+
+Q5.GP printing 
+#include <iostream>
+using namespace std;
+int main()
+{
+int n;
+int a=3;
+cout<<"enter number of terms : ";
+cin>>n;
+for(int i=1;i<=n;i++){
+
+    cout<<a<<" ";
+    a*=4;
+}
+
+}
+
+
+Q6.Ascii values and alphabets
+#include <iostream>
+using namespace std;
+int main()
+{
+
+
+int a=65;
+while(a<=90){
+    cout<<(char)a<<" "<<a<<endl;
+    a++;
+}
+
+}

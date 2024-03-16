@@ -1,0 +1,104 @@
+Q1. In while loop .............. infinite times
+
+Q2. Hello ...........infinite times
+
+Q3. In for loop  --- two times
+
+Q4. 9 1
+    8 2
+    7 3
+    6 4
+    5 5
+    
+    
+Q5.sum of digits
+#include <iostream>
+using namespace std;
+int main()
+{
+
+int n,z,s,sum=0;
+cout<<"enter the number : ";
+cin>>n;
+while(n>0){
+
+z=n%10;
+if(z%2==0) sum=sum+z;
+n=n/10;
+}
+
+cout<<sum;
+}
+
+
+
+Q6. sum reverse
+#include <iostream>
+using namespace std;
+int main()
+{
+
+int n,z,s=0,sum=0;
+cout<<"enter the number : ";
+cin>>n;
+int k=n;
+while(n>0){
+z=n%10;
+s=s*10;
+s=s+z;
+n=n/10;
+}
+sum=s+k;
+cout<<sum;
+}
+
+Q7.factorials of first n numbers
+#include <iostream>
+using namespace std;
+int main()
+{
+
+int n;
+cout<<"enter the  n number : ";
+cin>>n;
+for(int i=1;i<=n;i++){
+    int fact=1;
+  for(int j=1;j<=i;j++){
+    
+    fact=fact*j;
+    
+  }
+  cout<<fact;
+  cout<<endl;
+  
+}
+
+
+}
+
+
+Q8. fibonacii
+#include <iostream>
+using namespace std;
+int main()
+{
+
+int n;
+cout<<"enter the  n number : ";
+cin>>n;
+int fibo1 =0;
+int fibo2=1;
+int fibo3;
+
+cout<<fibo2<<" ";
+for(int i=1;i<=n;i++){
+fibo3=fibo1+fibo2;
+cout<<fibo3<<" ";
+
+fibo1=fibo2;
+fibo2=fibo3;
+
+  }
+
+}
+
